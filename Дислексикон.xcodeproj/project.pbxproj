@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350632E42076C2E1003E3EEA /* PrasanjaCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350632E32076C2E1003E3EEA /* PrasanjaCollectionController.swift */; };
+		350632E72076C34D003E3EEA /* PrasanjeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350632E52076C34D003E3EEA /* PrasanjeCollectionViewCell.swift */; };
+		350632E82076C34D003E3EEA /* PrasanjeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350632E62076C34D003E3EEA /* PrasanjeCollectionViewCell.xib */; };
+		3516E88C20665AFA008C7B93 /* сендвич.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3516E88420665AFA008C7B93 /* сендвич.m4a */; };
+		3516E88D20665AFA008C7B93 /* јајце.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3516E88520665AFA008C7B93 /* јајце.m4a */; };
+		3516E88E20665AFA008C7B93 /* лимон.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3516E88620665AFA008C7B93 /* лимон.m4a */; };
+		3516E88F20665AFA008C7B93 /* пица.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3516E88720665AFA008C7B93 /* пица.m4a */; };
+		3516E89020665AFA008C7B93 /* киви.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3516E88820665AFA008C7B93 /* киви.m4a */; };
+		3516E89120665AFA008C7B93 /* круша.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3516E88920665AFA008C7B93 /* круша.m4a */; };
+		3516E89220665AFA008C7B93 /* помфрит.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3516E88A20665AFA008C7B93 /* помфрит.m4a */; };
+		3516E89320665AFA008C7B93 /* леб.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3516E88B20665AFA008C7B93 /* леб.m4a */; };
+		35359682206641F400CA650F /* sliko-zbor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35359681206641F400CA650F /* sliko-zbor.m4a */; };
+		353596852066440B00CA650F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353596842066440B00CA650F /* Colors.xcassets */; };
+		353596882066488500CA650F /* погрешен одговор.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 353596862066488500CA650F /* погрешен одговор.m4a */; };
+		353596892066488500CA650F /* точен одговор.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 353596872066488500CA650F /* точен одговор.m4a */; };
+		3535968C206649A600CA650F /* hint.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3535968A206649A500CA650F /* hint.m4a */; };
+		3535968D206649A600CA650F /* prasalnik.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3535968B206649A600CA650F /* prasalnik.m4a */; };
+		35688CCE2086438600B7C3C7 /* ф.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CAF2086438300B7C3C7 /* ф.m4a */; };
+		35688CCF2086438600B7C3C7 /* с.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CB02086438400B7C3C7 /* с.m4a */; };
+		35688CD02086438600B7C3C7 /* ќ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CB12086438400B7C3C7 /* ќ.m4a */; };
+		35688CD12086438600B7C3C7 /* з.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CB22086438400B7C3C7 /* з.m4a */; };
+		35688CD22086438600B7C3C7 /* г.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CB32086438400B7C3C7 /* г.m4a */; };
+		35688CD32086438600B7C3C7 /* л.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CB42086438400B7C3C7 /* л.m4a */; };
+		35688CD42086438600B7C3C7 /* х.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CB52086438400B7C3C7 /* х.m4a */; };
+		35688CD52086438600B7C3C7 /* ѕ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CB62086438400B7C3C7 /* ѕ.m4a */; };
+		35688CD62086438600B7C3C7 /* о.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CB72086438400B7C3C7 /* о.m4a */; };
+		35688CD72086438600B7C3C7 /* в.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CB82086438400B7C3C7 /* в.m4a */; };
+		35688CD82086438600B7C3C7 /* а.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CB92086438400B7C3C7 /* а.m4a */; };
+		35688CD92086438600B7C3C7 /* н.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CBA2086438400B7C3C7 /* н.m4a */; };
+		35688CDA2086438600B7C3C7 /* м.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CBB2086438400B7C3C7 /* м.m4a */; };
+		35688CDB2086438600B7C3C7 /* љ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CBC2086438500B7C3C7 /* љ.m4a */; };
+		35688CDC2086438600B7C3C7 /* п.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CBD2086438500B7C3C7 /* п.m4a */; };
+		35688CDD2086438600B7C3C7 /* д.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CBE2086438500B7C3C7 /* д.m4a */; };
+		35688CDE2086438600B7C3C7 /* ѓ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CBF2086438500B7C3C7 /* ѓ.m4a */; };
+		35688CDF2086438600B7C3C7 /* р.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CC02086438500B7C3C7 /* р.m4a */; };
+		35688CE02086438600B7C3C7 /* к.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CC12086438500B7C3C7 /* к.m4a */; };
+		35688CE12086438600B7C3C7 /* и.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CC22086438500B7C3C7 /* и.m4a */; };
+		35688CE22086438600B7C3C7 /* у.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CC32086438500B7C3C7 /* у.m4a */; };
+		35688CE32086438600B7C3C7 /* ц.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CC42086438500B7C3C7 /* ц.m4a */; };
+		35688CE42086438600B7C3C7 /* ј.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CC52086438500B7C3C7 /* ј.m4a */; };
+		35688CE52086438600B7C3C7 /* ж.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CC62086438600B7C3C7 /* ж.m4a */; };
+		35688CE62086438600B7C3C7 /* џ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CC72086438600B7C3C7 /* џ.m4a */; };
+		35688CE72086438600B7C3C7 /* ч.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CC82086438600B7C3C7 /* ч.m4a */; };
+		35688CE82086438600B7C3C7 /* њ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CC92086438600B7C3C7 /* њ.m4a */; };
+		35688CE92086438600B7C3C7 /* б.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CCA2086438600B7C3C7 /* б.m4a */; };
+		35688CEA2086438600B7C3C7 /* ш.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CCB2086438600B7C3C7 /* ш.m4a */; };
+		35688CEB2086438600B7C3C7 /* е.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CCC2086438600B7C3C7 /* е.m4a */; };
+		35688CEC2086438600B7C3C7 /* т.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35688CCD2086438600B7C3C7 /* т.m4a */; };
+		357EEBB32064F24F00A5CAF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357EEBB22064F24F00A5CAF3 /* AppDelegate.swift */; };
+		357EEBB52064F24F00A5CAF3 /* NivoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357EEBB42064F24F00A5CAF3 /* NivoaViewController.swift */; };
+		357EEBB82064F24F00A5CAF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357EEBB62064F24F00A5CAF3 /* Main.storyboard */; };
+		357EEBBA2064F24F00A5CAF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357EEBB92064F24F00A5CAF3 /* Assets.xcassets */; };
+		357EEBBD2064F24F00A5CAF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357EEBBB2064F24F00A5CAF3 /* LaunchScreen.storyboard */; };
+		357EEBC6206500A700A5CAF3 /* AzbukaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357EEBC5206500A700A5CAF3 /* AzbukaViewController.swift */; };
+		357EEBCA206508A300A5CAF3 /* Models, Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357EEBC9206508A300A5CAF3 /* Models, Extensions.swift */; };
+		357EEBD0206513D000A5CAF3 /* CategoriiTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357EEBCF206513D000A5CAF3 /* CategoriiTableController.swift */; };
+		357EEBD42065146800A5CAF3 /* CategorijaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357EEBD32065146800A5CAF3 /* CategorijaTableViewCell.swift */; };
+		35909C4A20664E01004FC41D /* панда.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C4220664E00004FC41D /* панда.m4a */; };
+		35909C4B20664E01004FC41D /* слон.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C4320664E00004FC41D /* слон.m4a */; };
+		35909C4C20664E01004FC41D /* лав.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C4420664E00004FC41D /* лав.m4a */; };
+		35909C4D20664E01004FC41D /* зајак.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C4520664E00004FC41D /* зајак.m4a */; };
+		35909C4E20664E01004FC41D /* куче.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C4620664E00004FC41D /* куче.m4a */; };
+		35909C4F20664E01004FC41D /* мачка.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C4720664E00004FC41D /* мачка.m4a */; };
+		35909C5020664E01004FC41D /* волк.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C4820664E00004FC41D /* волк.m4a */; };
+		35909C5120664E01004FC41D /* желка.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C4920664E00004FC41D /* желка.m4a */; };
+		35909C5820665122004FC41D /* ранец.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C5220665122004FC41D /* ранец.m4a */; };
+		35909C5920665122004FC41D /* стол.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C5320665122004FC41D /* стол.m4a */; };
+		35909C5A20665122004FC41D /* книга.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C5420665122004FC41D /* книга.m4a */; };
+		35909C5B20665122004FC41D /* чаша.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C5520665122004FC41D /* чаша.m4a */; };
+		35909C5C20665122004FC41D /* биро.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C5620665122004FC41D /* биро.m4a */; };
+		35909C5D20665122004FC41D /* пенкало.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C5720665122004FC41D /* пенкало.m4a */; };
+		35909C602066515A004FC41D /* маса.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C5E2066515A004FC41D /* маса.m4a */; };
+		35909C612066515A004FC41D /* молив.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35909C5F2066515A004FC41D /* молив.m4a */; };
+		35C8C3352066402A0006F651 /* nauciJaAzbukata.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35C8C3342066402A0006F651 /* nauciJaAzbukata.m4a */; };
+		35C8C33A206640610006F651 /* секојдневни работи.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35C8C337206640610006F651 /* секојдневни работи.m4a */; };
+		35C8C33B206640610006F651 /* храна.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35C8C338206640610006F651 /* храна.m4a */; };
+		35C8C33C206640610006F651 /* животни.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35C8C339206640610006F651 /* животни.m4a */; };
+		35D024F020668C5A00834C00 /* Nivo3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D024EF20668C5A00834C00 /* Nivo3ViewController.swift */; };
+		35D024F420669B3F00834C00 /* nivo3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 35D024F320669B3F00834C00 /* nivo3.m4a */; };
+		35EA8F38206542390055A7D1 /* SlikoZborCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EA8F37206542390055A7D1 /* SlikoZborCollectionViewController.swift */; };
+		35EA8F3B2065426F0055A7D1 /* SlikoZborCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EA8F392065426F0055A7D1 /* SlikoZborCollectionViewCell.swift */; };
+		35EA8F3C2065426F0055A7D1 /* SlikoZborCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35EA8F3A2065426F0055A7D1 /* SlikoZborCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		350632E32076C2E1003E3EEA /* PrasanjaCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrasanjaCollectionController.swift; sourceTree = "<group>"; };
+		350632E52076C34D003E3EEA /* PrasanjeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrasanjeCollectionViewCell.swift; sourceTree = "<group>"; };
+		350632E62076C34D003E3EEA /* PrasanjeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrasanjeCollectionViewCell.xib; sourceTree = "<group>"; };
+		3516E88420665AFA008C7B93 /* сендвич.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "сендвич.m4a"; sourceTree = "<group>"; };
+		3516E88520665AFA008C7B93 /* јајце.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "јајце.m4a"; sourceTree = "<group>"; };
+		3516E88620665AFA008C7B93 /* лимон.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лимон.m4a"; sourceTree = "<group>"; };
+		3516E88720665AFA008C7B93 /* пица.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "пица.m4a"; sourceTree = "<group>"; };
+		3516E88820665AFA008C7B93 /* киви.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "киви.m4a"; sourceTree = "<group>"; };
+		3516E88920665AFA008C7B93 /* круша.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "круша.m4a"; sourceTree = "<group>"; };
+		3516E88A20665AFA008C7B93 /* помфрит.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "помфрит.m4a"; sourceTree = "<group>"; };
+		3516E88B20665AFA008C7B93 /* леб.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "леб.m4a"; sourceTree = "<group>"; };
+		35359681206641F400CA650F /* sliko-zbor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sliko-zbor.m4a"; sourceTree = "<group>"; };
+		353596842066440B00CA650F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		353596862066488500CA650F /* погрешен одговор.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "погрешен одговор.m4a"; sourceTree = "<group>"; };
+		353596872066488500CA650F /* точен одговор.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "точен одговор.m4a"; sourceTree = "<group>"; };
+		3535968A206649A500CA650F /* hint.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hint.m4a; sourceTree = "<group>"; };
+		3535968B206649A600CA650F /* prasalnik.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = prasalnik.m4a; sourceTree = "<group>"; };
+		35688CAF2086438300B7C3C7 /* ф.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ф.m4a"; sourceTree = "<group>"; };
+		35688CB02086438400B7C3C7 /* с.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "с.m4a"; sourceTree = "<group>"; };
+		35688CB12086438400B7C3C7 /* ќ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ќ.m4a"; sourceTree = "<group>"; };
+		35688CB22086438400B7C3C7 /* з.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "з.m4a"; sourceTree = "<group>"; };
+		35688CB32086438400B7C3C7 /* г.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "г.m4a"; sourceTree = "<group>"; };
+		35688CB42086438400B7C3C7 /* л.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "л.m4a"; sourceTree = "<group>"; };
+		35688CB52086438400B7C3C7 /* х.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "х.m4a"; sourceTree = "<group>"; };
+		35688CB62086438400B7C3C7 /* ѕ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ѕ.m4a"; sourceTree = "<group>"; };
+		35688CB72086438400B7C3C7 /* о.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "о.m4a"; sourceTree = "<group>"; };
+		35688CB82086438400B7C3C7 /* в.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "в.m4a"; sourceTree = "<group>"; };
+		35688CB92086438400B7C3C7 /* а.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "а.m4a"; sourceTree = "<group>"; };
+		35688CBA2086438400B7C3C7 /* н.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "н.m4a"; sourceTree = "<group>"; };
+		35688CBB2086438400B7C3C7 /* м.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "м.m4a"; sourceTree = "<group>"; };
+		35688CBC2086438500B7C3C7 /* љ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "љ.m4a"; sourceTree = "<group>"; };
+		35688CBD2086438500B7C3C7 /* п.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "п.m4a"; sourceTree = "<group>"; };
+		35688CBE2086438500B7C3C7 /* д.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "д.m4a"; sourceTree = "<group>"; };
+		35688CBF2086438500B7C3C7 /* ѓ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ѓ.m4a"; sourceTree = "<group>"; };
+		35688CC02086438500B7C3C7 /* р.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "р.m4a"; sourceTree = "<group>"; };
+		35688CC12086438500B7C3C7 /* к.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "к.m4a"; sourceTree = "<group>"; };
+		35688CC22086438500B7C3C7 /* и.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "и.m4a"; sourceTree = "<group>"; };
+		35688CC32086438500B7C3C7 /* у.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "у.m4a"; sourceTree = "<group>"; };
+		35688CC42086438500B7C3C7 /* ц.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ц.m4a"; sourceTree = "<group>"; };
+		35688CC52086438500B7C3C7 /* ј.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ј.m4a"; sourceTree = "<group>"; };
+		35688CC62086438600B7C3C7 /* ж.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ж.m4a"; sourceTree = "<group>"; };
+		35688CC72086438600B7C3C7 /* џ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "џ.m4a"; sourceTree = "<group>"; };
+		35688CC82086438600B7C3C7 /* ч.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ч.m4a"; sourceTree = "<group>"; };
+		35688CC92086438600B7C3C7 /* њ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "њ.m4a"; sourceTree = "<group>"; };
+		35688CCA2086438600B7C3C7 /* б.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "б.m4a"; sourceTree = "<group>"; };
+		35688CCB2086438600B7C3C7 /* ш.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ш.m4a"; sourceTree = "<group>"; };
+		35688CCC2086438600B7C3C7 /* е.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "е.m4a"; sourceTree = "<group>"; };
+		35688CCD2086438600B7C3C7 /* т.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "т.m4a"; sourceTree = "<group>"; };
+		357EEBAF2064F24F00A5CAF3 /* Дислексикон.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Дислексикон.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		357EEBB22064F24F00A5CAF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		357EEBB42064F24F00A5CAF3 /* NivoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NivoaViewController.swift; sourceTree = "<group>"; };
+		357EEBB72064F24F00A5CAF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		357EEBB92064F24F00A5CAF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		357EEBBC2064F24F00A5CAF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		357EEBBE2064F24F00A5CAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357EEBC5206500A700A5CAF3 /* AzbukaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzbukaViewController.swift; sourceTree = "<group>"; };
+		357EEBC9206508A300A5CAF3 /* Models, Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models, Extensions.swift"; sourceTree = "<group>"; };
+		357EEBCF206513D000A5CAF3 /* CategoriiTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriiTableController.swift; sourceTree = "<group>"; };
+		357EEBD32065146800A5CAF3 /* CategorijaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorijaTableViewCell.swift; sourceTree = "<group>"; };
+		35909C4220664E00004FC41D /* панда.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "панда.m4a"; sourceTree = "<group>"; };
+		35909C4320664E00004FC41D /* слон.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "слон.m4a"; sourceTree = "<group>"; };
+		35909C4420664E00004FC41D /* лав.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "лав.m4a"; sourceTree = "<group>"; };
+		35909C4520664E00004FC41D /* зајак.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "зајак.m4a"; sourceTree = "<group>"; };
+		35909C4620664E00004FC41D /* куче.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "куче.m4a"; sourceTree = "<group>"; };
+		35909C4720664E00004FC41D /* мачка.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "мачка.m4a"; sourceTree = "<group>"; };
+		35909C4820664E00004FC41D /* волк.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "волк.m4a"; sourceTree = "<group>"; };
+		35909C4920664E00004FC41D /* желка.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "желка.m4a"; sourceTree = "<group>"; };
+		35909C5220665122004FC41D /* ранец.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ранец.m4a"; sourceTree = "<group>"; };
+		35909C5320665122004FC41D /* стол.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "стол.m4a"; sourceTree = "<group>"; };
+		35909C5420665122004FC41D /* книга.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "книга.m4a"; sourceTree = "<group>"; };
+		35909C5520665122004FC41D /* чаша.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "чаша.m4a"; sourceTree = "<group>"; };
+		35909C5620665122004FC41D /* биро.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "биро.m4a"; sourceTree = "<group>"; };
+		35909C5720665122004FC41D /* пенкало.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "пенкало.m4a"; sourceTree = "<group>"; };
+		35909C5E2066515A004FC41D /* маса.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "маса.m4a"; sourceTree = "<group>"; };
+		35909C5F2066515A004FC41D /* молив.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "молив.m4a"; sourceTree = "<group>"; };
+		35C8C3342066402A0006F651 /* nauciJaAzbukata.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = nauciJaAzbukata.m4a; sourceTree = "<group>"; };
+		35C8C337206640610006F651 /* секојдневни работи.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "секојдневни работи.m4a"; sourceTree = "<group>"; };
+		35C8C338206640610006F651 /* храна.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "храна.m4a"; sourceTree = "<group>"; };
+		35C8C339206640610006F651 /* животни.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "животни.m4a"; sourceTree = "<group>"; };
+		35D024EF20668C5A00834C00 /* Nivo3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nivo3ViewController.swift; sourceTree = "<group>"; };
+		35D024F320669B3F00834C00 /* nivo3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = nivo3.m4a; sourceTree = "<group>"; };
+		35EA8F37206542390055A7D1 /* SlikoZborCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlikoZborCollectionViewController.swift; sourceTree = "<group>"; };
+		35EA8F392065426F0055A7D1 /* SlikoZborCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlikoZborCollectionViewCell.swift; sourceTree = "<group>"; };
+		35EA8F3A2065426F0055A7D1 /* SlikoZborCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlikoZborCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		357EEBAC2064F24F00A5CAF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350632E92076C358003E3EEA /* Prasanje Cell */ = {
+			isa = PBXGroup;
+			children = (
+				350632E52076C34D003E3EEA /* PrasanjeCollectionViewCell.swift */,
+				350632E62076C34D003E3EEA /* PrasanjeCollectionViewCell.xib */,
+			);
+			path = "Prasanje Cell";
+			sourceTree = "<group>";
+		};
+		3506F47E206556D600EDFBC3 /* Zivotni */ = {
+			isa = PBXGroup;
+			children = (
+				35909C4820664E00004FC41D /* волк.m4a */,
+				35909C4920664E00004FC41D /* желка.m4a */,
+				35909C4520664E00004FC41D /* зајак.m4a */,
+				35909C4620664E00004FC41D /* куче.m4a */,
+				35909C4420664E00004FC41D /* лав.m4a */,
+				35909C4720664E00004FC41D /* мачка.m4a */,
+				35909C4220664E00004FC41D /* панда.m4a */,
+				35909C4320664E00004FC41D /* слон.m4a */,
+			);
+			path = Zivotni;
+			sourceTree = "<group>";
+		};
+		3516E89420665B5A008C7B93 /* Ниво 3 */ = {
+			isa = PBXGroup;
+			children = (
+				35D024EF20668C5A00834C00 /* Nivo3ViewController.swift */,
+				350632E32076C2E1003E3EEA /* PrasanjaCollectionController.swift */,
+				350632E92076C358003E3EEA /* Prasanje Cell */,
+			);
+			path = "Ниво 3";
+			sourceTree = "<group>";
+		};
+		353596832066427700CA650F /* Храна */ = {
+			isa = PBXGroup;
+			children = (
+				3516E88520665AFA008C7B93 /* јајце.m4a */,
+				3516E88820665AFA008C7B93 /* киви.m4a */,
+				3516E88920665AFA008C7B93 /* круша.m4a */,
+				3516E88B20665AFA008C7B93 /* леб.m4a */,
+				3516E88620665AFA008C7B93 /* лимон.m4a */,
+				3516E88720665AFA008C7B93 /* пица.m4a */,
+				3516E88A20665AFA008C7B93 /* помфрит.m4a */,
+				3516E88420665AFA008C7B93 /* сендвич.m4a */,
+			);
+			path = "Храна";
+			sourceTree = "<group>";
+		};
+		3535968E206649AE00CA650F /* Kopcinja audio */ = {
+			isa = PBXGroup;
+			children = (
+				3535968A206649A500CA650F /* hint.m4a */,
+				3535968B206649A600CA650F /* prasalnik.m4a */,
+				353596862066488500CA650F /* погрешен одговор.m4a */,
+				353596872066488500CA650F /* точен одговор.m4a */,
+			);
+			path = "Kopcinja audio";
+			sourceTree = "<group>";
+		};
+		357EEBA62064F24F00A5CAF3 = {
+			isa = PBXGroup;
+			children = (
+				357EEBB12064F24F00A5CAF3 /* Дислексикон */,
+				357EEBB02064F24F00A5CAF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		357EEBB02064F24F00A5CAF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				357EEBAF2064F24F00A5CAF3 /* Дислексикон.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		357EEBB12064F24F00A5CAF3 /* Дислексикон */ = {
+			isa = PBXGroup;
+			children = (
+				357EEBB22064F24F00A5CAF3 /* AppDelegate.swift */,
+				357EEBB42064F24F00A5CAF3 /* NivoaViewController.swift */,
+				357EEBC42064FDBA00A5CAF3 /* Azbuka */,
+				357EEBD1206513E500A5CAF3 /* Sliko Zbor */,
+				3516E89420665B5A008C7B93 /* Ниво 3 */,
+				357EEBB92064F24F00A5CAF3 /* Assets.xcassets */,
+				357EEBBB2064F24F00A5CAF3 /* LaunchScreen.storyboard */,
+				353596842066440B00CA650F /* Colors.xcassets */,
+				357EEBB62064F24F00A5CAF3 /* Main.storyboard */,
+				357EEBD32065146800A5CAF3 /* CategorijaTableViewCell.swift */,
+				357EEBC72065075300A5CAF3 /* Celo Audio */,
+				357EEBBE2064F24F00A5CAF3 /* Info.plist */,
+				357EEBC9206508A300A5CAF3 /* Models, Extensions.swift */,
+			);
+			path = "Дислексикон";
+			sourceTree = "<group>";
+		};
+		357EEBC42064FDBA00A5CAF3 /* Azbuka */ = {
+			isa = PBXGroup;
+			children = (
+				357EEBC5206500A700A5CAF3 /* AzbukaViewController.swift */,
+			);
+			path = Azbuka;
+			sourceTree = "<group>";
+		};
+		357EEBC72065075300A5CAF3 /* Celo Audio */ = {
+			isa = PBXGroup;
+			children = (
+				3535968E206649AE00CA650F /* Kopcinja audio */,
+				35C8C336206640340006F651 /* Kategorii */,
+				35D024F320669B3F00834C00 /* nivo3.m4a */,
+				35C8C3342066402A0006F651 /* nauciJaAzbukata.m4a */,
+				35359681206641F400CA650F /* sliko-zbor.m4a */,
+				3506F47E206556D600EDFBC3 /* Zivotni */,
+				35C8C333206640020006F651 /* Sekojdnevni raboti */,
+				353596832066427700CA650F /* Храна */,
+				35C8C2F420663E9E0006F651 /* Bukvi */,
+			);
+			path = "Celo Audio";
+			sourceTree = "<group>";
+		};
+		357EEBD1206513E500A5CAF3 /* Sliko Zbor */ = {
+			isa = PBXGroup;
+			children = (
+				357EEBCF206513D000A5CAF3 /* CategoriiTableController.swift */,
+				35EA8F37206542390055A7D1 /* SlikoZborCollectionViewController.swift */,
+				35EA8F36206541F50055A7D1 /* SlikoZborCell */,
+			);
+			path = "Sliko Zbor";
+			sourceTree = "<group>";
+		};
+		35C8C2F420663E9E0006F651 /* Bukvi */ = {
+			isa = PBXGroup;
+			children = (
+				35688CB92086438400B7C3C7 /* а.m4a */,
+				35688CCA2086438600B7C3C7 /* б.m4a */,
+				35688CB82086438400B7C3C7 /* в.m4a */,
+				35688CB32086438400B7C3C7 /* г.m4a */,
+				35688CBF2086438500B7C3C7 /* ѓ.m4a */,
+				35688CBE2086438500B7C3C7 /* д.m4a */,
+				35688CCC2086438600B7C3C7 /* е.m4a */,
+				35688CC62086438600B7C3C7 /* ж.m4a */,
+				35688CB22086438400B7C3C7 /* з.m4a */,
+				35688CB62086438400B7C3C7 /* ѕ.m4a */,
+				35688CC22086438500B7C3C7 /* и.m4a */,
+				35688CC52086438500B7C3C7 /* ј.m4a */,
+				35688CC12086438500B7C3C7 /* к.m4a */,
+				35688CB12086438400B7C3C7 /* ќ.m4a */,
+				35688CB42086438400B7C3C7 /* л.m4a */,
+				35688CBC2086438500B7C3C7 /* љ.m4a */,
+				35688CBB2086438400B7C3C7 /* м.m4a */,
+				35688CBA2086438400B7C3C7 /* н.m4a */,
+				35688CC92086438600B7C3C7 /* њ.m4a */,
+				35688CB72086438400B7C3C7 /* о.m4a */,
+				35688CBD2086438500B7C3C7 /* п.m4a */,
+				35688CC02086438500B7C3C7 /* р.m4a */,
+				35688CB02086438400B7C3C7 /* с.m4a */,
+				35688CCD2086438600B7C3C7 /* т.m4a */,
+				35688CC32086438500B7C3C7 /* у.m4a */,
+				35688CAF2086438300B7C3C7 /* ф.m4a */,
+				35688CB52086438400B7C3C7 /* х.m4a */,
+				35688CC42086438500B7C3C7 /* ц.m4a */,
+				35688CC82086438600B7C3C7 /* ч.m4a */,
+				35688CC72086438600B7C3C7 /* џ.m4a */,
+				35688CCB2086438600B7C3C7 /* ш.m4a */,
+			);
+			path = Bukvi;
+			sourceTree = "<group>";
+		};
+		35C8C333206640020006F651 /* Sekojdnevni raboti */ = {
+			isa = PBXGroup;
+			children = (
+				35909C5E2066515A004FC41D /* маса.m4a */,
+				35909C5F2066515A004FC41D /* молив.m4a */,
+				35909C5620665122004FC41D /* биро.m4a */,
+				35909C5420665122004FC41D /* книга.m4a */,
+				35909C5720665122004FC41D /* пенкало.m4a */,
+				35909C5220665122004FC41D /* ранец.m4a */,
+				35909C5320665122004FC41D /* стол.m4a */,
+				35909C5520665122004FC41D /* чаша.m4a */,
+			);
+			path = "Sekojdnevni raboti";
+			sourceTree = "<group>";
+		};
+		35C8C336206640340006F651 /* Kategorii */ = {
+			isa = PBXGroup;
+			children = (
+				35C8C339206640610006F651 /* животни.m4a */,
+				35C8C337206640610006F651 /* секојдневни работи.m4a */,
+				35C8C338206640610006F651 /* храна.m4a */,
+			);
+			path = Kategorii;
+			sourceTree = "<group>";
+		};
+		35EA8F36206541F50055A7D1 /* SlikoZborCell */ = {
+			isa = PBXGroup;
+			children = (
+				35EA8F392065426F0055A7D1 /* SlikoZborCollectionViewCell.swift */,
+				35EA8F3A2065426F0055A7D1 /* SlikoZborCollectionViewCell.xib */,
+			);
+			name = SlikoZborCell;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		357EEBAE2064F24F00A5CAF3 /* Дислексикон */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357EEBC12064F24F00A5CAF3 /* Build configuration list for PBXNativeTarget "Дислексикон" */;
+			buildPhases = (
+				357EEBAB2064F24F00A5CAF3 /* Sources */,
+				357EEBAC2064F24F00A5CAF3 /* Frameworks */,
+				357EEBAD2064F24F00A5CAF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Дислексикон";
+			productName = "Дислексикон";
+			productReference = 357EEBAF2064F24F00A5CAF3 /* Дислексикон.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		357EEBA72064F24F00A5CAF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Code X Team";
+				TargetAttributes = {
+					357EEBAE2064F24F00A5CAF3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 357EEBAA2064F24F00A5CAF3 /* Build configuration list for PBXProject "Дислексикон" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 357EEBA62064F24F00A5CAF3;
+			productRefGroup = 357EEBB02064F24F00A5CAF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				357EEBAE2064F24F00A5CAF3 /* Дислексикон */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		357EEBAD2064F24F00A5CAF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35688CE72086438600B7C3C7 /* ч.m4a in Resources */,
+				35688CD12086438600B7C3C7 /* з.m4a in Resources */,
+				35688CEB2086438600B7C3C7 /* е.m4a in Resources */,
+				35909C4A20664E01004FC41D /* панда.m4a in Resources */,
+				35688CE82086438600B7C3C7 /* њ.m4a in Resources */,
+				350632E82076C34D003E3EEA /* PrasanjeCollectionViewCell.xib in Resources */,
+				35688CD72086438600B7C3C7 /* в.m4a in Resources */,
+				3516E88F20665AFA008C7B93 /* пица.m4a in Resources */,
+				35909C5A20665122004FC41D /* книга.m4a in Resources */,
+				35688CDB2086438600B7C3C7 /* љ.m4a in Resources */,
+				3516E89020665AFA008C7B93 /* киви.m4a in Resources */,
+				3516E89320665AFA008C7B93 /* леб.m4a in Resources */,
+				35688CE42086438600B7C3C7 /* ј.m4a in Resources */,
+				35909C5020664E01004FC41D /* волк.m4a in Resources */,
+				35688CE52086438600B7C3C7 /* ж.m4a in Resources */,
+				35909C4D20664E01004FC41D /* зајак.m4a in Resources */,
+				3516E89120665AFA008C7B93 /* круша.m4a in Resources */,
+				353596892066488500CA650F /* точен одговор.m4a in Resources */,
+				353596852066440B00CA650F /* Colors.xcassets in Resources */,
+				3516E89220665AFA008C7B93 /* помфрит.m4a in Resources */,
+				353596882066488500CA650F /* погрешен одговор.m4a in Resources */,
+				35EA8F3C2065426F0055A7D1 /* SlikoZborCollectionViewCell.xib in Resources */,
+				35688CD02086438600B7C3C7 /* ќ.m4a in Resources */,
+				35909C5B20665122004FC41D /* чаша.m4a in Resources */,
+				35C8C3352066402A0006F651 /* nauciJaAzbukata.m4a in Resources */,
+				35909C5120664E01004FC41D /* желка.m4a in Resources */,
+				35688CE12086438600B7C3C7 /* и.m4a in Resources */,
+				35909C612066515A004FC41D /* молив.m4a in Resources */,
+				35688CDC2086438600B7C3C7 /* п.m4a in Resources */,
+				35909C602066515A004FC41D /* маса.m4a in Resources */,
+				35688CD22086438600B7C3C7 /* г.m4a in Resources */,
+				35909C4F20664E01004FC41D /* мачка.m4a in Resources */,
+				35909C5920665122004FC41D /* стол.m4a in Resources */,
+				3516E88E20665AFA008C7B93 /* лимон.m4a in Resources */,
+				35688CD92086438600B7C3C7 /* н.m4a in Resources */,
+				35C8C33A206640610006F651 /* секојдневни работи.m4a in Resources */,
+				35688CD82086438600B7C3C7 /* а.m4a in Resources */,
+				35688CDF2086438600B7C3C7 /* р.m4a in Resources */,
+				35909C5C20665122004FC41D /* биро.m4a in Resources */,
+				35688CCF2086438600B7C3C7 /* с.m4a in Resources */,
+				35688CEA2086438600B7C3C7 /* ш.m4a in Resources */,
+				35909C5D20665122004FC41D /* пенкало.m4a in Resources */,
+				35688CE62086438600B7C3C7 /* џ.m4a in Resources */,
+				35688CDE2086438600B7C3C7 /* ѓ.m4a in Resources */,
+				35688CE22086438600B7C3C7 /* у.m4a in Resources */,
+				35688CD62086438600B7C3C7 /* о.m4a in Resources */,
+				35909C5820665122004FC41D /* ранец.m4a in Resources */,
+				35C8C33B206640610006F651 /* храна.m4a in Resources */,
+				35688CE32086438600B7C3C7 /* ц.m4a in Resources */,
+				3535968D206649A600CA650F /* prasalnik.m4a in Resources */,
+				35909C4C20664E01004FC41D /* лав.m4a in Resources */,
+				35C8C33C206640610006F651 /* животни.m4a in Resources */,
+				357EEBBD2064F24F00A5CAF3 /* LaunchScreen.storyboard in Resources */,
+				35688CEC2086438600B7C3C7 /* т.m4a in Resources */,
+				35688CDD2086438600B7C3C7 /* д.m4a in Resources */,
+				35909C4B20664E01004FC41D /* слон.m4a in Resources */,
+				35359682206641F400CA650F /* sliko-zbor.m4a in Resources */,
+				357EEBBA2064F24F00A5CAF3 /* Assets.xcassets in Resources */,
+				3535968C206649A600CA650F /* hint.m4a in Resources */,
+				3516E88C20665AFA008C7B93 /* сендвич.m4a in Resources */,
+				35688CD32086438600B7C3C7 /* л.m4a in Resources */,
+				3516E88D20665AFA008C7B93 /* јајце.m4a in Resources */,
+				35688CD52086438600B7C3C7 /* ѕ.m4a in Resources */,
+				35688CE02086438600B7C3C7 /* к.m4a in Resources */,
+				35D024F420669B3F00834C00 /* nivo3.m4a in Resources */,
+				35688CE92086438600B7C3C7 /* б.m4a in Resources */,
+				35688CDA2086438600B7C3C7 /* м.m4a in Resources */,
+				35688CD42086438600B7C3C7 /* х.m4a in Resources */,
+				357EEBB82064F24F00A5CAF3 /* Main.storyboard in Resources */,
+				35909C4E20664E01004FC41D /* куче.m4a in Resources */,
+				35688CCE2086438600B7C3C7 /* ф.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		357EEBAB2064F24F00A5CAF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357EEBB52064F24F00A5CAF3 /* NivoaViewController.swift in Sources */,
+				35EA8F38206542390055A7D1 /* SlikoZborCollectionViewController.swift in Sources */,
+				35D024F020668C5A00834C00 /* Nivo3ViewController.swift in Sources */,
+				357EEBB32064F24F00A5CAF3 /* AppDelegate.swift in Sources */,
+				350632E72076C34D003E3EEA /* PrasanjeCollectionViewCell.swift in Sources */,
+				357EEBD42065146800A5CAF3 /* CategorijaTableViewCell.swift in Sources */,
+				357EEBC6206500A700A5CAF3 /* AzbukaViewController.swift in Sources */,
+				357EEBD0206513D000A5CAF3 /* CategoriiTableController.swift in Sources */,
+				35EA8F3B2065426F0055A7D1 /* SlikoZborCollectionViewCell.swift in Sources */,
+				357EEBCA206508A300A5CAF3 /* Models, Extensions.swift in Sources */,
+				350632E42076C2E1003E3EEA /* PrasanjaCollectionController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		357EEBB62064F24F00A5CAF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				357EEBB72064F24F00A5CAF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		357EEBBB2064F24F00A5CAF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				357EEBBC2064F24F00A5CAF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		357EEBBF2064F24F00A5CAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		357EEBC02064F24F00A5CAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		357EEBC22064F24F00A5CAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHDB6AB2D3;
+				INFOPLIST_FILE = "Дислексикон/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Viksaa39.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		357EEBC32064F24F00A5CAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHDB6AB2D3;
+				INFOPLIST_FILE = "Дислексикон/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Viksaa39.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		357EEBAA2064F24F00A5CAF3 /* Build configuration list for PBXProject "Дислексикон" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357EEBBF2064F24F00A5CAF3 /* Debug */,
+				357EEBC02064F24F00A5CAF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		357EEBC12064F24F00A5CAF3 /* Build configuration list for PBXNativeTarget "Дислексикон" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357EEBC22064F24F00A5CAF3 /* Debug */,
+				357EEBC32064F24F00A5CAF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 357EEBA72064F24F00A5CAF3 /* Project object */;
+}

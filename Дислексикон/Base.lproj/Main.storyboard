@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JLK-VI-MbK">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Kohinoor.ttc">
+            <string>KohinoorDevanagari-Regular</string>
+            <string>KohinoorDevanagari-Semibold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Nivoa View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="NivoaViewController" customModule="Дислексикон" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="sBy-Pf-a5W" userLabel="Nivoa Stack View">
+                                <rect key="frame" x="37.666666666666657" y="365" width="300" height="240"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="5qW-I9-axg">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6M-p6-RkB">
+                                                <rect key="frame" x="0.0" y="8.6666666666666856" width="220" height="43"/>
+                                                <color key="backgroundColor" name="color za kopcinja"/>
+                                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="22"/>
+                                                <state key="normal" title="  Научи ја азбуката  "/>
+                                                <connections>
+                                                    <segue destination="6fx-oS-JVO" kind="show" identifier="klk" id="qtD-64-vY3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jj7-h0-jjZ">
+                                                <rect key="frame" x="240" y="0.0" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="mlc-Bf-r22"/>
+                                                    <constraint firstAttribute="height" constant="60" id="oRe-tR-j7d"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="buttonZvukZaNivoa"/>
+                                                <connections>
+                                                    <action selector="nivo1ButtonIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B4d-cT-gbh"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="5HR-rM-xZa">
+                                        <rect key="frame" x="0.0" y="90" width="300" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFW-pB-Hfb">
+                                                <rect key="frame" x="0.0" y="10" width="220" height="40"/>
+                                                <color key="backgroundColor" name="color za kopcinja"/>
+                                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="20"/>
+                                                <state key="normal" title="Слико-збор"/>
+                                                <connections>
+                                                    <segue destination="BOi-KN-oYY" kind="show" id="qGc-79-aXP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDq-t7-QMs">
+                                                <rect key="frame" x="240" y="0.0" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="7iE-4t-Aga"/>
+                                                    <constraint firstAttribute="height" constant="60" id="r8q-DS-0UX"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="buttonZvukZaNivoa"/>
+                                                <connections>
+                                                    <action selector="nivo2ButtonIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="han-Cy-u4D"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ScS-Uu-NiE">
+                                        <rect key="frame" x="0.0" y="180" width="300" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Exk-6m-ZSJ">
+                                                <rect key="frame" x="0.0" y="9" width="220" height="42"/>
+                                                <color key="backgroundColor" name="color za kopcinja"/>
+                                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="21"/>
+                                                <state key="normal" title="Научи повеќе">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="lXJ-lL-J5D" kind="show" id="y8P-bC-mam"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="center" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36P-u6-JG6">
+                                                <rect key="frame" x="240" y="0.0" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="Xn9-d6-k7I"/>
+                                                    <constraint firstAttribute="height" constant="60" id="slj-Vb-i3T"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="buttonZvukZaNivoa"/>
+                                                <connections>
+                                                    <action selector="nivo3ButtonIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gqk-JI-Ngg"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <variation key="heightClass=compact-widthClass=compact" spacing="10"/>
+                                <variation key="heightClass=compact-widthClass=regular" spacing="15"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="HKY-5r-bW7">
+                                <rect key="frame" x="20" y="123" width="335" height="162"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дислексикон" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AI7-bW-t8T">
+                                        <rect key="frame" x="60.000000000000014" y="0.0" width="215.33333333333337" height="45"/>
+                                        <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="32"/>
+                                        <color key="textColor" red="0.077311197916666671" green="0.25056966145833331" blue="0.4089084201388889" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ikona" translatesAutoresizingMaskIntoConstraints="NO" id="hYb-cU-zak">
+                                        <rect key="frame" x="112.66666666666666" y="52" width="110" height="110"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="6mC-FL-OWp"/>
+                                            <constraint firstAttribute="height" constant="110" id="XMw-9u-Eb4">
+                                                <variation key="heightClass=compact-widthClass=compact" constant="0.0"/>
+                                                <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
+                                            </constraint>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sBy-Pf-a5W" firstAttribute="top" secondItem="HKY-5r-bW7" secondAttribute="bottom" constant="80" id="1EJ-ke-IIs">
+                                <variation key="heightClass=compact-widthClass=compact" constant="30"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="40"/>
+                            </constraint>
+                            <constraint firstItem="sBy-Pf-a5W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C37-hS-a5b"/>
+                            <constraint firstItem="HKY-5r-bW7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Q1o-b2-Tbo"/>
+                            <constraint firstItem="HKY-5r-bW7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="liZ-gv-tW2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HKY-5r-bW7" secondAttribute="trailing" constant="20" id="v4s-85-EHp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="j4D-Wz-eBu"/>
+                    <connections>
+                        <outlet property="buttonNivo1" destination="Q6M-p6-RkB" id="aWK-fm-1ly"/>
+                        <outlet property="buttonNivo2" destination="WFW-pB-Hfb" id="9gy-Uf-olN"/>
+                        <outlet property="buttonNivo3" destination="Exk-6m-ZSJ" id="j15-F0-ZrR"/>
+                        <outlet property="stackViewNivoa" destination="sBy-Pf-a5W" id="aMd-b4-TAa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1041" y="95"/>
+        </scene>
+        <!--Categorii Table Controller-->
+        <scene sceneID="AzK-Yv-6ls">
+            <objects>
+                <tableViewController id="BOi-KN-oYY" customClass="CategoriiTableController" customModule="Дислексикон" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="al6-E8-N8L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="categorijaCell" id="Pah-G3-gOb" customClass="CategorijaTableViewCell" customModule="Дислексикон" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Pah-G3-gOb" id="Fxy-CU-jzi">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categorija Ime" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="TqJ-qh-uWB">
+                                            <rect key="frame" x="18" y="11" width="292" height="22"/>
+                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="24"/>
+                                            <color key="textColor" red="0.2135959201388889" green="0.20746527777777779" blue="0.2741970486111111" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLX-55-dRu">
+                                            <rect key="frame" x="315" y="-3.6666666666666679" width="50" height="50.666666666666671"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="Xq2-rN-obu"/>
+                                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="50" id="vds-4n-kI9"/>
+                                            </constraints>
+                                            <state key="normal" title="Button" image="audioDebelo"/>
+                                            <connections>
+                                                <action selector="buttonAudioZaCategorii:" destination="BOi-KN-oYY" eventType="touchUpInside" id="PXJ-oW-XN3"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="TqJ-qh-uWB" firstAttribute="bottom" secondItem="Fxy-CU-jzi" secondAttribute="bottomMargin" id="4b7-0d-eiP"/>
+                                        <constraint firstAttribute="trailing" secondItem="VLX-55-dRu" secondAttribute="trailing" constant="10" id="Sp7-Ac-Upd"/>
+                                        <constraint firstItem="VLX-55-dRu" firstAttribute="centerY" secondItem="Fxy-CU-jzi" secondAttribute="centerY" id="Zsx-tj-YgT"/>
+                                        <constraint firstItem="VLX-55-dRu" firstAttribute="leading" secondItem="TqJ-qh-uWB" secondAttribute="trailing" constant="5" id="aOL-w8-dmf"/>
+                                        <constraint firstItem="TqJ-qh-uWB" firstAttribute="leading" secondItem="Fxy-CU-jzi" secondAttribute="leadingMargin" constant="2" id="hgh-EF-rDq"/>
+                                        <constraint firstItem="TqJ-qh-uWB" firstAttribute="top" secondItem="Fxy-CU-jzi" secondAttribute="topMargin" id="xyr-BU-4K5"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="buttonAudio" destination="VLX-55-dRu" id="hlR-tG-ckC"/>
+                                    <outlet property="labelCategorijaIme" destination="TqJ-qh-uWB" id="9hs-BW-Mco"/>
+                                    <segue destination="xbU-eE-CN7" kind="show" id="lfT-G1-rSL"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="BOi-KN-oYY" id="ZIw-qA-SkI"/>
+                            <outlet property="delegate" destination="BOi-KN-oYY" id="5fU-3z-H3i"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="IgB-M0-puH"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Qv-fI-Adh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2610" y="86"/>
+        </scene>
+        <!--Sliko Zbor Collection View Controller-->
+        <scene sceneID="5dw-Xa-jnL">
+            <objects>
+                <collectionViewController id="xbU-eE-CN7" customClass="SlikoZborCollectionViewController" customModule="Дислексикон" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="prototypes" id="HK2-5G-IIR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YMN-Wd-PrC">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="slikoZborCell" id="NRT-Le-voM" customClass="SlikoZborCollectionViewCell" customModule="Дислексикон" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="xbU-eE-CN7" id="F1X-Ks-G4C"/>
+                            <outlet property="delegate" destination="xbU-eE-CN7" id="kGu-ZL-9Fd"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AH6-1V-dcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3615" y="86"/>
+        </scene>
+        <!--Azbuka View Controller-->
+        <scene sceneID="ExG-Lr-gSR">
+            <objects>
+                <viewController storyboardIdentifier="AzbukaVC" id="6fx-oS-JVO" customClass="AzbukaViewController" customModule="Дислексикон" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFit" id="T1H-qw-Dg3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bukvi" translatesAutoresizingMaskIntoConstraints="NO" id="AgH-bH-fd1">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vj9-aV-agN">
+                                <rect key="frame" x="0.0" y="88" width="320" height="446"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D42-gS-7Uh" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="890"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hOc-YK-tf4" userLabel="Vertical Stack View">
+                                                <rect key="frame" x="15" y="30" width="290" height="660"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hWv-SV-acK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="290" height="65"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2f-yR-xHW">
+                                                                <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="f2f-yR-xHW" secondAttribute="height" multiplier="1:1" id="yUO-Hm-Sox"/>
+                                                                </constraints>
+                                                                <state key="normal" image="а"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="7eh-Sh-l9K"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JnS-WK-Vj8">
+                                                                <rect key="frame" x="75" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="JnS-WK-Vj8" secondAttribute="height" multiplier="1:1" id="rhd-6A-00t"/>
+                                                                </constraints>
+                                                                <state key="normal" image="б"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="yPr-MN-W5f"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfp-Jj-Feq">
+                                                                <rect key="frame" x="150" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="hfp-Jj-Feq" secondAttribute="height" multiplier="1:1" id="Rcw-9G-E4V"/>
+                                                                </constraints>
+                                                                <state key="normal" image="в"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="hec-94-bod"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfK-eB-9mq">
+                                                                <rect key="frame" x="225" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="WfK-eB-9mq" secondAttribute="height" multiplier="1:1" id="82v-L5-TJt"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="17"/>
+                                                                <state key="normal" image="г"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="qm3-ef-eXE"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rue-68-4BJ">
+                                                        <rect key="frame" x="0.0" y="85" width="290" height="65"/>
+                                                        <subviews>
+                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2S-mp-JW9">
+                                                                <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="W2S-mp-JW9" secondAttribute="height" multiplier="1:1" id="48t-UG-gW2"/>
+                                                                </constraints>
+                                                                <state key="normal" image="д"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="ioP-gG-1Uw"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1v-Vg-yyE">
+                                                                <rect key="frame" x="75" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="L1v-Vg-yyE" secondAttribute="height" multiplier="1:1" id="jiE-a7-Kkn"/>
+                                                                </constraints>
+                                                                <state key="normal" image="ѓ -1"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="jSi-Fy-2JM"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7A-dx-brY">
+                                                                <rect key="frame" x="150" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="q7A-dx-brY" secondAttribute="height" multiplier="1:1" id="HjN-dO-A1t"/>
+                                                                </constraints>
+                                                                <state key="normal" image="е"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="QhO-oN-eF2"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWB-M2-53A">
+                                                                <rect key="frame" x="225" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="TWB-M2-53A" secondAttribute="height" multiplier="1:1" id="83J-xu-Zvf"/>
+                                                                </constraints>
+                                                                <state key="normal" image="ж"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="vi1-2g-OhG"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HWv-4L-VX4">
+                                                        <rect key="frame" x="0.0" y="170" width="290" height="65"/>
+                                                        <subviews>
+                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXO-s7-MkX">
+                                                                <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="oXO-s7-MkX" secondAttribute="height" multiplier="1:1" id="BaB-sq-J8v"/>
+                                                                </constraints>
+                                                                <state key="normal" image="з"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="CSp-u6-Trr"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpg-sp-KVZ">
+                                                                <rect key="frame" x="75" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="zpg-sp-KVZ" secondAttribute="height" multiplier="1:1" id="Jpo-dc-GWv"/>
+                                                                </constraints>
+                                                                <state key="normal" image="ѕ"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="2QN-65-HsR"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRj-d2-D2D">
+                                                                <rect key="frame" x="150" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="bRj-d2-D2D" secondAttribute="height" multiplier="1:1" id="2QX-fk-tjq"/>
+                                                                </constraints>
+                                                                <state key="normal" image="и"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="3ML-gR-6HT"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9e-we-ELX">
+                                                                <rect key="frame" x="225" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="j9e-we-ELX" secondAttribute="height" multiplier="1:1" id="cgf-h5-efu"/>
+                                                                </constraints>
+                                                                <state key="normal" image="ј"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="60X-SR-BRo"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VKL-L1-8c3">
+                                                        <rect key="frame" x="0.0" y="255" width="290" height="65"/>
+                                                        <subviews>
+                                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhQ-Al-fes">
+                                                                <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="rhQ-Al-fes" secondAttribute="height" multiplier="1:1" id="8eS-Bn-vBV"/>
+                                                                </constraints>
+                                                                <state key="normal" image="к"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="Huf-14-1Pf"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VK2-Dw-A48">
+                                                                <rect key="frame" x="75" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="VK2-Dw-A48" secondAttribute="height" multiplier="1:1" id="ayk-4L-3Z0"/>
+                                                                </constraints>
+                                                                <state key="normal" image="л"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="9yD-Vn-wV1"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qW6-Mr-AhJ">
+                                                                <rect key="frame" x="150" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="qW6-Mr-AhJ" secondAttribute="height" multiplier="1:1" id="tSU-Di-BMC"/>
+                                                                </constraints>
+                                                                <state key="normal" image="љ"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="iKq-7h-E5d"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUq-hm-Lme">
+                                                                <rect key="frame" x="225" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="QUq-hm-Lme" secondAttribute="height" multiplier="1:1" id="TZr-tY-uwK"/>
+                                                                </constraints>
+                                                                <state key="normal" image="м"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="BM5-T7-GRJ"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="py7-G4-nw7">
+                                                        <rect key="frame" x="0.0" y="340" width="290" height="65"/>
+                                                        <subviews>
+                                                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fty-ML-8m9">
+                                                                <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="fty-ML-8m9" secondAttribute="height" multiplier="1:1" id="hr0-RC-JG0"/>
+                                                                </constraints>
+                                                                <state key="normal" image="н"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="xwC-jv-KLz"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GoS-S2-51n">
+                                                                <rect key="frame" x="75" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="GoS-S2-51n" secondAttribute="height" multiplier="1:1" id="oLa-k5-2NA"/>
+                                                                </constraints>
+                                                                <state key="normal" image="њ"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="gsA-0J-6vp"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOS-74-d0C">
+                                                                <rect key="frame" x="150" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="DOS-74-d0C" secondAttribute="height" multiplier="1:1" id="Zn6-og-zfk"/>
+                                                                </constraints>
+                                                                <state key="normal" image="о"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="BVx-X6-m7m"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJW-jG-yZq">
+                                                                <rect key="frame" x="225" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="pJW-jG-yZq" secondAttribute="height" multiplier="1:1" id="oAN-jw-Bhq"/>
+                                                                </constraints>
+                                                                <state key="normal" image="п"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="xb2-ZK-JNO"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bYn-1i-BN2">
+                                                        <rect key="frame" x="0.0" y="425" width="290" height="65"/>
+                                                        <subviews>
+                                                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpt-R8-FIi">
+                                                                <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="qpt-R8-FIi" secondAttribute="height" multiplier="1:1" id="dVx-br-b5Q"/>
+                                                                </constraints>
+                                                                <state key="normal" image="р"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="mhi-GA-6gN"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQM-bJ-wRj">
+                                                                <rect key="frame" x="75" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="UQM-bJ-wRj" secondAttribute="height" multiplier="1:1" id="xoS-b7-kXX"/>
+                                                                </constraints>
+                                                                <state key="normal" image="с"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="IXU-7L-Mef"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHx-in-hkT">
+                                                                <rect key="frame" x="150" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="AHx-in-hkT" secondAttribute="height" multiplier="1:1" id="2mz-pz-OC5"/>
+                                                                </constraints>
+                                                                <state key="normal" image="т"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="Abh-5c-hjg"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5q-cw-7No">
+                                                                <rect key="frame" x="225" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="A5q-cw-7No" secondAttribute="height" multiplier="1:1" id="VD3-xQ-fEa"/>
+                                                                </constraints>
+                                                                <state key="normal" image="ќ-1"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="gw5-fu-RP6"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vhq-Yu-s7a">
+                                                        <rect key="frame" x="0.0" y="510" width="290" height="65"/>
+                                                        <subviews>
+                                                            <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frD-mW-JaJ">
+                                                                <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="frD-mW-JaJ" secondAttribute="height" multiplier="1:1" id="Bcp-JM-NsR"/>
+                                                                </constraints>
+                                                                <state key="normal" image="у"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="F0K-fa-f2l"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T45-FI-mdo">
+                                                                <rect key="frame" x="75" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="T45-FI-mdo" secondAttribute="height" multiplier="1:1" id="S2v-mH-2Mk"/>
+                                                                </constraints>
+                                                                <state key="normal" image="ф"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="pN7-eS-gCE"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="26" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUi-su-zmv">
+                                                                <rect key="frame" x="150" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="IUi-su-zmv" secondAttribute="height" multiplier="1:1" id="kou-6f-cir"/>
+                                                                </constraints>
+                                                                <state key="normal" image="х"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="MnQ-S3-REN"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="27" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQL-1b-cmd">
+                                                                <rect key="frame" x="225" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="yQL-1b-cmd" secondAttribute="height" multiplier="1:1" id="KTs-EH-o2s"/>
+                                                                </constraints>
+                                                                <state key="normal" image="ц"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="Gqk-bT-HNc"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zf3-zt-2Pm">
+                                                        <rect key="frame" x="0.0" y="595" width="290" height="65"/>
+                                                        <subviews>
+                                                            <button opaque="NO" tag="28" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xnf-QP-h8m">
+                                                                <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="Xnf-QP-h8m" secondAttribute="height" multiplier="1:1" id="6Zw-8k-QSv"/>
+                                                                </constraints>
+                                                                <state key="normal" image="ч"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="Tsv-oQ-0jL"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="29" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtQ-JO-Erk">
+                                                                <rect key="frame" x="75" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="XtQ-JO-Erk" secondAttribute="height" multiplier="1:1" id="k6V-IS-6ip"/>
+                                                                </constraints>
+                                                                <state key="normal" image="џ"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="sp6-r7-bgh"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LcH-Z6-cVx">
+                                                                <rect key="frame" x="150" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="LcH-Z6-cVx" secondAttribute="height" multiplier="1:1" id="5HE-Y7-5A7"/>
+                                                                </constraints>
+                                                                <state key="normal" image="ш"/>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="CXu-aY-GDV"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" tag="31" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="977-eP-qsU">
+                                                                <rect key="frame" x="225" y="0.0" width="65" height="65"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="65" id="aBi-JP-HLy"/>
+                                                                    <constraint firstAttribute="width" constant="65" id="yzP-FZ-3r3"/>
+                                                                </constraints>
+                                                                <connections>
+                                                                    <action selector="buttonBukvaIsPressed:" destination="6fx-oS-JVO" eventType="touchUpInside" id="DXa-jv-ffO"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="hOc-YK-tf4" firstAttribute="leading" secondItem="D42-gS-7Uh" secondAttribute="leading" constant="15" id="75O-Qu-wt3">
+                                                <variation key="heightClass=compact-widthClass=compact" constant="30"/>
+                                            </constraint>
+                                            <constraint firstItem="hOc-YK-tf4" firstAttribute="leading" secondItem="D42-gS-7Uh" secondAttribute="leading" constant="30" id="DOq-OJ-caN"/>
+                                            <constraint firstItem="hOc-YK-tf4" firstAttribute="top" secondItem="D42-gS-7Uh" secondAttribute="top" constant="30" id="WKk-Ca-c8a"/>
+                                            <constraint firstAttribute="trailing" secondItem="hOc-YK-tf4" secondAttribute="trailing" constant="15" id="aPp-ay-7xI">
+                                                <variation key="heightClass=compact-widthClass=compact" constant="30"/>
+                                            </constraint>
+                                            <constraint firstAttribute="trailing" secondItem="hOc-YK-tf4" secondAttribute="trailing" constant="30" id="p8l-u2-wLC"/>
+                                            <constraint firstAttribute="height" constant="890" id="yaa-Wo-ulr"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="75O-Qu-wt3"/>
+                                                <exclude reference="DOq-OJ-caN"/>
+                                                <exclude reference="aPp-ay-7xI"/>
+                                                <exclude reference="p8l-u2-wLC"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="75O-Qu-wt3"/>
+                                                <include reference="aPp-ay-7xI"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=compact-widthClass=regular">
+                                            <mask key="constraints">
+                                                <include reference="DOq-OJ-caN"/>
+                                                <include reference="p8l-u2-wLC"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="D42-gS-7Uh" secondAttribute="bottom" id="Mbn-jA-EFP"/>
+                                    <constraint firstItem="D42-gS-7Uh" firstAttribute="leading" secondItem="Vj9-aV-agN" secondAttribute="leading" id="arT-ep-rGh"/>
+                                    <constraint firstItem="D42-gS-7Uh" firstAttribute="top" secondItem="Vj9-aV-agN" secondAttribute="top" id="qvv-Td-BxJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="D42-gS-7Uh" secondAttribute="trailing" id="zjU-oQ-oYS"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AgH-bH-fd1" firstAttribute="top" secondItem="T1H-qw-Dg3" secondAttribute="top" id="56E-Iv-6ny"/>
+                            <constraint firstItem="Vj9-aV-agN" firstAttribute="leading" secondItem="FUE-hO-YYA" secondAttribute="leading" id="EKL-b1-vk8"/>
+                            <constraint firstItem="FUE-hO-YYA" firstAttribute="bottom" secondItem="Vj9-aV-agN" secondAttribute="bottom" id="HQy-ci-xLz"/>
+                            <constraint firstAttribute="bottom" secondItem="AgH-bH-fd1" secondAttribute="bottom" id="INv-g5-U9c"/>
+                            <constraint firstItem="AgH-bH-fd1" firstAttribute="leading" secondItem="T1H-qw-Dg3" secondAttribute="leading" id="faj-1E-5r6"/>
+                            <constraint firstAttribute="trailing" secondItem="AgH-bH-fd1" secondAttribute="trailing" id="pPM-FA-70T"/>
+                            <constraint firstItem="D42-gS-7Uh" firstAttribute="width" secondItem="T1H-qw-Dg3" secondAttribute="width" id="rdA-9z-oSG"/>
+                            <constraint firstItem="Vj9-aV-agN" firstAttribute="top" secondItem="FUE-hO-YYA" secondAttribute="top" id="xFx-Hi-hUS"/>
+                            <constraint firstItem="FUE-hO-YYA" firstAttribute="trailing" secondItem="Vj9-aV-agN" secondAttribute="trailing" id="zWn-nR-i1j"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FUE-hO-YYA"/>
+                    </view>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="contentView" destination="D42-gS-7Uh" id="f8P-3s-azx"/>
+                        <outlet property="scrollView" destination="Vj9-aV-agN" id="WP1-Sb-Agb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y1W-th-o9P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1938" y="-684"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="20m-Xu-Zhc">
+            <objects>
+                <navigationController id="ATf-yu-zx9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4mP-p7-qbN">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BOi-KN-oYY" kind="relationship" relationship="rootViewController" id="Pc6-Sp-J0n"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sef-g5-7Jf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1984" y="86"/>
+        </scene>
+        <!--Nivo3 View Controller-->
+        <scene sceneID="U6x-gT-Ibw">
+            <objects>
+                <viewController id="lXJ-lL-J5D" customClass="Nivo3ViewController" customModule="Дислексикон" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D54-ew-n7t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pozadinaNaLisicaBg" translatesAutoresizingMaskIntoConstraints="NO" id="MUz-nj-8ca">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finalLisicaBG" translatesAutoresizingMaskIntoConstraints="NO" id="mmG-pz-5Vn">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LGa-WW-M3y">
+                                <rect key="frame" x="5" y="708" width="70" height="70"/>
+                                <state key="normal" image="back2"/>
+                                <connections>
+                                    <action selector="backButtonForExitIsPressed:" destination="lXJ-lL-J5D" eventType="touchUpInside" id="bCX-nW-kDu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azJ-7P-xxh">
+                                <rect key="frame" x="299" y="707" width="71" height="71"/>
+                                <state key="normal" image="next2"/>
+                                <connections>
+                                    <segue destination="dba-Lz-cv1" kind="show" id="B7B-CG-xwH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4RK-R7-xgk" userLabel="AudioButton">
+                                <rect key="frame" x="280" y="582" width="65" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="55B-Kh-9Y6"/>
+                                    <constraint firstAttribute="height" constant="65" id="Ol0-tI-fLl"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="audioDebelo"/>
+                                <connections>
+                                    <action selector="buttonAudioZaTekstPressed:" destination="lXJ-lL-J5D" eventType="touchUpInside" id="mh0-9o-7Eo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="azJ-7P-xxh" firstAttribute="top" secondItem="4RK-R7-xgk" secondAttribute="bottom" constant="60" id="3Af-tw-fcm"/>
+                            <constraint firstItem="9kU-GF-JmP" firstAttribute="trailing" secondItem="azJ-7P-xxh" secondAttribute="trailing" constant="5" id="H3V-Dp-6tg"/>
+                            <constraint firstAttribute="bottom" secondItem="mmG-pz-5Vn" secondAttribute="bottom" id="Hz4-8e-11h"/>
+                            <constraint firstAttribute="trailing" secondItem="mmG-pz-5Vn" secondAttribute="trailing" id="N7z-6d-mKa"/>
+                            <constraint firstItem="MUz-nj-8ca" firstAttribute="top" secondItem="D54-ew-n7t" secondAttribute="top" id="Xn0-9l-jC4"/>
+                            <constraint firstItem="mmG-pz-5Vn" firstAttribute="top" secondItem="D54-ew-n7t" secondAttribute="top" id="a5W-gV-6UW"/>
+                            <constraint firstAttribute="trailing" secondItem="MUz-nj-8ca" secondAttribute="trailing" id="bBj-g0-ZZg"/>
+                            <constraint firstItem="LGa-WW-M3y" firstAttribute="leading" secondItem="9kU-GF-JmP" secondAttribute="leading" constant="5" id="cfL-pA-pFs"/>
+                            <constraint firstItem="MUz-nj-8ca" firstAttribute="leading" secondItem="9kU-GF-JmP" secondAttribute="leading" id="dBK-dX-KXl"/>
+                            <constraint firstItem="LGa-WW-M3y" firstAttribute="bottom" secondItem="9kU-GF-JmP" secondAttribute="bottom" id="duZ-BV-MT6"/>
+                            <constraint firstItem="mmG-pz-5Vn" firstAttribute="leading" secondItem="D54-ew-n7t" secondAttribute="leading" id="hIt-LT-wgb"/>
+                            <constraint firstItem="9kU-GF-JmP" firstAttribute="trailing" secondItem="4RK-R7-xgk" secondAttribute="trailing" constant="30" id="p2R-Br-B9S"/>
+                            <constraint firstAttribute="bottom" secondItem="MUz-nj-8ca" secondAttribute="bottom" id="wpp-s9-XEr"/>
+                            <constraint firstItem="9kU-GF-JmP" firstAttribute="bottom" secondItem="azJ-7P-xxh" secondAttribute="bottom" id="x0l-dm-ACS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9kU-GF-JmP"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="URM-EI-HlC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vkt-rq-z4X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1983.75" y="903.16901408450701"/>
+        </scene>
+        <!--Prasanja Collection Controller-->
+        <scene sceneID="Ggi-HR-nrU">
+            <objects>
+                <collectionViewController id="dba-Lz-cv1" customClass="PrasanjaCollectionController" customModule="Дислексикон" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="prototypes" id="1Ym-aq-PTJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ERe-TD-Psn">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="prasanjeCell" id="isc-ES-dbm" customClass="PrasanjeCollectionViewCell" customModule="Дислексикон" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="dba-Lz-cv1" id="yCA-QJ-5wD"/>
+                            <outlet property="delegate" destination="dba-Lz-cv1" id="UvZ-ZI-MX1"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2gj-GR-Dmc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3309" y="903"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hMN-X2-vBw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JLK-VI-MbK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5md-F5-brU">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="WAD-57-3xc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GxG-ez-WPr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="262" y="96"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="audioDebelo" width="1024" height="1024"/>
+        <image name="back2" width="70" height="70"/>
+        <image name="bukvi" width="280" height="497"/>
+        <image name="buttonZvukZaNivoa" width="199" height="199"/>
+        <image name="finalLisicaBG" width="1258" height="2237"/>
+        <image name="ikona" width="1024" height="1024"/>
+        <image name="next2" width="71" height="71"/>
+        <image name="pozadinaNaLisicaBg" width="1258" height="124"/>
+        <image name="а" width="512" height="512"/>
+        <image name="б" width="512" height="512"/>
+        <image name="в" width="512" height="512"/>
+        <image name="г" width="512" height="512"/>
+        <image name="ѓ -1" width="512" height="512"/>
+        <image name="д" width="512" height="512"/>
+        <image name="е" width="512" height="512"/>
+        <image name="ж" width="512" height="512"/>
+        <image name="з" width="512" height="512"/>
+        <image name="и" width="512" height="512"/>
+        <image name="к" width="512" height="512"/>
+        <image name="ќ-1" width="512" height="512"/>
+        <image name="л" width="512" height="512"/>
+        <image name="м" width="512" height="512"/>
+        <image name="н" width="512" height="512"/>
+        <image name="о" width="512" height="512"/>
+        <image name="п" width="512" height="512"/>
+        <image name="р" width="512" height="512"/>
+        <image name="с" width="512" height="512"/>
+        <image name="т" width="512" height="512"/>
+        <image name="у" width="512" height="512"/>
+        <image name="ф" width="512" height="512"/>
+        <image name="х" width="512" height="512"/>
+        <image name="ц" width="512" height="512"/>
+        <image name="ч" width="512" height="512"/>
+        <image name="ш" width="512" height="512"/>
+        <image name="ѕ" width="512" height="512"/>
+        <image name="ј" width="512" height="512"/>
+        <image name="љ" width="512" height="512"/>
+        <image name="њ" width="512" height="512"/>
+        <image name="џ" width="512" height="512"/>
+        <namedColor name="color za kopcinja">
+            <color red="0.43299999833106995" green="0.60799998044967651" blue="0.83499997854232788" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="qGc-79-aXP"/>
+    </inferredMetricsTieBreakers>
+</document>

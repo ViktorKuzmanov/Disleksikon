@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="slikoZborCell" id="gTV-IL-0wX" customClass="SlikoZborCollectionViewCell" customModule="Дислексикон" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="610" height="768"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="610" height="768"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2VL-bN-5bk">
+                        <rect key="frame" x="230" y="30" width="150" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="1S9-0P-nVU"/>
+                            <constraint firstAttribute="width" constant="150" id="Zgo-cy-Rk3"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jw-Y1-iXa">
+                        <rect key="frame" x="280" y="200" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="BZh-xh-74j"/>
+                            <constraint firstAttribute="height" constant="50" id="JKv-kc-EK8"/>
+                        </constraints>
+                        <state key="normal" image="audioDebelo"/>
+                        <connections>
+                            <action selector="buttonAudioIsPressed:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Be6-jp-FgI"/>
+                        </connections>
+                    </button>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="TWb-fV-ifr" userLabel="TextField Stack View">
+                        <rect key="frame" x="30" y="280" width="550" height="50"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Внеси го зборот" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m9J-bI-AMR">
+                                <rect key="frame" x="0.0" y="0.0" width="460" height="50"/>
+                                <color key="backgroundColor" red="0.81708441840277779" green="0.98109266493055558" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9c-4i-bKa">
+                                <rect key="frame" x="480" y="0.0" width="70" height="50"/>
+                                <color key="backgroundColor" red="0.42352941176470588" green="0.65490196078431373" blue="0.83137254901960778" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="pbM-Fd-tOt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Готово">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonGotovoIsPressed:" destination="gTV-IL-0wX" eventType="touchUpInside" id="vsL-Bq-PO8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Yo8-aU-CkP"/>
+                        </constraints>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ozh-mU-4fR">
+                        <rect key="frame" x="182" y="370" width="246" height="60"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OiF-ps-HRq">
+                                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="WKM-J5-d11"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJA-47-dib">
+                                <rect key="frame" x="60" y="10" width="186" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Button za Proverka"/>
+                                <connections>
+                                    <action selector="buttonZaProverkaIsPressed:" destination="gTV-IL-0wX" eventType="touchUpInside" id="SP7-Kr-uRL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="W1V-un-EgW"/>
+                        </constraints>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8JR-7S-ZpU">
+                        <rect key="frame" x="25" y="638" width="55" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="55" id="3fZ-gR-JmH"/>
+                            <constraint firstAttribute="width" constant="55" id="FJD-vW-eWz"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="hint"/>
+                        <connections>
+                            <action selector="buttonHintIsPressed:" destination="gTV-IL-0wX" eventType="touchUpInside" id="mCg-vH-dLm"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPM-Jg-qMN">
+                        <rect key="frame" x="525" y="633" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="fzq-HX-4eh"/>
+                            <constraint firstAttribute="width" constant="60" id="j0O-3o-izp"/>
+                        </constraints>
+                        <state key="normal" image="prasalnik"/>
+                        <connections>
+                            <action selector="buttonPrasalnikIsPressed:" destination="gTV-IL-0wX" eventType="touchUpInside" id="JRn-cm-HVd"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="TWb-fV-ifr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="30" id="26w-hb-42a"/>
+                <constraint firstAttribute="bottom" secondItem="sPM-Jg-qMN" secondAttribute="bottom" constant="75" id="2WT-OK-keC"/>
+                <constraint firstItem="2VL-bN-5bk" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="5D4-PT-ca7"/>
+                <constraint firstItem="4jw-Y1-iXa" firstAttribute="top" secondItem="2VL-bN-5bk" secondAttribute="bottom" constant="20" id="7Dx-un-3VX"/>
+                <constraint firstItem="Ozh-mU-4fR" firstAttribute="top" secondItem="TWb-fV-ifr" secondAttribute="bottom" constant="40" id="Axa-Yb-qhK"/>
+                <constraint firstItem="4jw-Y1-iXa" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="NXL-Jc-pyu"/>
+                <constraint firstAttribute="trailing" secondItem="TWb-fV-ifr" secondAttribute="trailing" constant="30" id="SeV-vV-zXR"/>
+                <constraint firstItem="8JR-7S-ZpU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="25" id="UKA-hX-pfF"/>
+                <constraint firstItem="2VL-bN-5bk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="30" id="VsA-wE-Kzm"/>
+                <constraint firstAttribute="trailing" secondItem="sPM-Jg-qMN" secondAttribute="trailing" constant="25" id="fpE-67-A1E"/>
+                <constraint firstItem="Ozh-mU-4fR" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="g8N-e1-8qK"/>
+                <constraint firstItem="TWb-fV-ifr" firstAttribute="top" secondItem="4jw-Y1-iXa" secondAttribute="bottom" constant="30" id="mix-PG-Hdx"/>
+                <constraint firstAttribute="bottom" secondItem="8JR-7S-ZpU" secondAttribute="bottom" constant="75" id="oTi-s6-OlV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="610" height="768"/>
+            <connections>
+                <outlet property="buttonAudio" destination="4jw-Y1-iXa" id="Zey-RG-osN"/>
+                <outlet property="buttonGotovo" destination="E9c-4i-bKa" id="Amd-GJ-H4f"/>
+                <outlet property="buttonHint" destination="8JR-7S-ZpU" id="bGD-wc-4Vr"/>
+                <outlet property="buttonPrasalnik" destination="sPM-Jg-qMN" id="PXi-pz-P1c"/>
+                <outlet property="buttonZaProverka" destination="kJA-47-dib" id="wQo-5b-hIn"/>
+                <outlet property="constraintHintBtnOnBottom" destination="oTi-s6-OlV" id="936-fw-7WQ"/>
+                <outlet property="constraintPrasalnikBtnBottom" destination="2WT-OK-keC" id="HHX-2b-bfn"/>
+                <outlet property="imageNaObject" destination="2VL-bN-5bk" id="0sg-wZ-D13"/>
+                <outlet property="imageZaProverka" destination="OiF-ps-HRq" id="9Yc-ND-gy8"/>
+                <outlet property="textFieldZaObject" destination="m9J-bI-AMR" id="Pe9-QF-LIS"/>
+            </connections>
+            <point key="canvasLocation" x="385" y="-177"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="audioDebelo" width="1024" height="1024"/>
+        <image name="hint" width="700" height="700"/>
+        <image name="prasalnik" width="1024" height="1024"/>
+    </resources>
+</document>
