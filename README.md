@@ -11,4 +11,3 @@ Big shout out to my team -> Strashe Naumov and Save Trajkov making this possible
 
 We rock
 
-![Image of cat](https://user-images.githubusercontent.com/32278714/111901272-6b1f9b80-8a37-11eb-9fb0-6ba76b9d951c.jpg)
